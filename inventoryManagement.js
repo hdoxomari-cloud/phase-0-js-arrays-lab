@@ -6,9 +6,11 @@ function logFirstProduct() {
 function addProduct(productName) {
   products.push(productName);
 }
-function updateProductName(position, newName); {
-  products[position] = newName;
+function updateProductName(index, newName) {
+  products[index] = newName;
 }
+updateProductName(1, "Ipad");
+console.log(products);
 function removeLastProduct() {
   products.pop()
 }
